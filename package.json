@@ -1,0 +1,20 @@
+{
+  "name": "socket-chat-example",
+  "version": "0.0.1",
+  "description": "my first socket.io app",
+  "scripts": {
+    "start": "node start.js",
+    "stop": "taskkill /f /im node.exe"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-env": "^2.4.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.15.2",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0",
+    "socket.io": "^2.1.1"
+  }
+}
